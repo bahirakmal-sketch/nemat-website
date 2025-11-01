@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(image/studio-background-concept-dark-gradient-purple-studio-room-background-product.jpg);
+  font-family: 'Poppins', sans-serif;
+ 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.binner {
+  background-image: url(image/professional-programmer-working-late-dark-office.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+
+.social-icons {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  display: flex;
+  gap: 20px; /* فاصله بین آیکن‌ها */
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s, opacity 0.3s;
+  cursor: pointer;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+
+
+/* کارت اصلی */
+.card {
+  background: linear-gradient(135deg, #241a47, #5d8dee);
+  width: 480px;
+  height: 600px;
+  border-radius: 25px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  position: absolute;
+  bottom: -180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f0f0f5;
+  text-align: center;
+}
+
+/* عکس پروفایل */
+.img {
+  width: 170px;
+  height: 170px;
+  background-image: url("image/2025_05_02_17_56_IMG_1157.JPG");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-top: -85px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+  border: 5px solid #fff;
+}
+
+/* بخش اطلاعات */
+.info {
+  margin-top: 25px;
+  line-height: 1.6;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+}
+
+.job {
+  font-size: 22px;
+  color: #a3baff;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.info p {
+  margin: 8px 0;
+  font-size: 20px;
+  color: #e4e4e7;
+}
+
+/* افکت هاور (اختیاری) */
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.4s ease;
+  box-shadow: 0 0 70px rgba(85, 140, 255, 0.5);
+}
+.hi{
+    bottom: -300;
+}
+
+
+section {
+  width: 100%;
+  height: 500px;
+  display: block;
+ 
+}
+.img-section {
+  margin-top: 600px; /* 👈 این عدد رو زیاد کن تا تصویر بیاد پایین‌تر */
+}
+
+
+.photo-section img {
+  width: 300px; /* اندازه ثابت */
+  border-radius: 10px; /* گوشه‌های گرد */
+   display: block;
+  margin: 0 auto;
+}
+.hi {
+  position: relative;
+  margin-top: 250px; /* 👈 فاصله از سکشن بالایی */
+  z-index: 1;
+}
+.aimg {
+  width: 500px;
+  height: 400px;
+  background-image: url(image/2023_07_11_15_56_IMG_3051.JPG);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  margin-right: 130px;
+  margin-top: 400px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.p {
+  color: white;
+  font-size: 24px;
+  width: 40%;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 80px;
+  margin-top: -300px;
+  
+  
+}
+.aimg:hover{
+   transform: scale(1.03);
+  transition: 0.4s ease;
+  box-shadow: 0 0 70px rgba(85, 140, 255, 0.5);
+  margin-right: 170px;
+}
+
+.bimg{
+   width: 500px;
+  height: 400px;
+  
+  background-position: center;
+  background-size: cover;
+  border-radius: 14px;
+   margin: 0 auto;
+  margin-top: 180px;
+  margin-left: 80px;
+
+}
+
+ 
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.hover-video {
+  width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.hover-video:hover {
+  transform: scale(1.03);
+}
+
+.video-text {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.video-text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.video-text p {
+  font-size: 18px;
+  color: #ccc;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Info</title>
+    <link href="personal.css" rel="stylesheet">
+</head>
+<body>
+    <section class="binner">
+        <div class="social-icons">
+        <a href="https://icons8.com/icons/set/twitter"> <img src="icons8-twitter-50(1).png"></a>
+        
+        <a href=""><img src="icons8-facebook-logo-50.png"></a>
+        <a href="https://www.instagram.com/nemat__azizi?igsh=YTJzN3VIYzhsODIt"><img src="image/icons8-instagram-logo-50(1).png"></a>
+        </div>
+        <div class="card">
+            <div class="img"></div>
+            
+            <div class="info">
+                <h2 class="name">Nemat Azizi</h2>
+                <p class="job">Developer</p>
+                <p><strong>Age:</strong> 22</p>
+                <p><strong>Country:</strong> Afghanistan</p>
+                <p><strong>Address:</strong> Kabul, Charkala Chardi</p>
+                <p><strong>Email:</strong> Nemat@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <section class="hi">
+        <div class="Country">
+        <div class="aimg">
+      
+        </div>
+       
+        <div class="p">
+            <p>"A moment in Paghman with my brothers — surrounded by nature, friendship, and peace. 
+                These are the memories that remind us where we come from and what truly matters."</p>
+        </div>
+        
+        </div>
+    </section>
+    <section>
+        
+
+        <div class="video-section ">
+            <video id="hoverVideo" class="hover-video" muted loop playsinline > <source src="2024_08_01_12_15_IMG_8532.MP4" type="video/mp4"></video>
+        </div>
+        <div class="video-text">
+    <h2>Memories in Motion</h2>
+    <p>Every frame tells a story — moments that never fade.</p>
+  </div>
+    </section>
+    <script>
+   const video = document.getElementById("hoverVideo");
+
+video.addEventListener("mouseenter", () => {
+  video.play();
+});
+
+video.addEventListener("mouseleave", () => {
+  video.pause();
+  video.currentTime = 0; // برمی‌گردونه به فریم اول
+});
+
+    </script>
+</body>
+</html>
